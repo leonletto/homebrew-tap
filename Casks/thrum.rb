@@ -3,7 +3,7 @@ cask "thrum" do
   name "thrum"
   desc "Git-backed agent messaging and coordination CLI"
   homepage "https://github.com/leonletto/thrum"
-  version "0.4.3"
+  version "0.4.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "thrum" do
   on_macos do
     on_intel do
       url "https://github.com/leonletto/thrum/releases/download/v#{version}/thrum_#{version}_darwin_amd64.tar.gz"
-      sha256 "afd614fbb7c0ec9299899fd39b2f8707774dae2676a57e3d93c60e582d5aa879"
+      sha256 "46863c0b8501edee8ae72e6e2928be0b246a05ed37b066fb159ce0a09f27d868"
     end
     on_arm do
       url "https://github.com/leonletto/thrum/releases/download/v#{version}/thrum_#{version}_darwin_arm64.tar.gz"
-      sha256 "ca1d13a1842d4713b18f5a6054fa06cd473fb205adb3fb01fe3d6ff7e46b51d8"
+      sha256 "721c759b74a5a224c3ae8087191f0910bcaa4f221104c783a8d69bf2e4cc7085"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/leonletto/thrum/releases/download/v#{version}/thrum_#{version}_linux_amd64.tar.gz"
-      sha256 "00d82dd9d13ddab46d3591b21b87fcf4a846e24e58d5a99b2ed72b5464426e22"
+      sha256 "9b15038a0175ae750ed38f42e57c4924af885798fdcc97e5f7fe4326457efd0b"
     end
     on_arm do
       url "https://github.com/leonletto/thrum/releases/download/v#{version}/thrum_#{version}_linux_arm64.tar.gz"
-      sha256 "51577bff159e8840c4ce973c3973b924f2015310790d4c0fbb6db2249aa73a4e"
+      sha256 "13475e56524a67295d679b6bff30d04fab870a878f3073df79a2bf0f18b14d48"
     end
   end
 
