@@ -3,7 +3,7 @@ cask "gt-telegram" do
   name "gt-telegram"
   desc "Telegram bridge for Gas Town overseer communication"
   homepage "https://github.com/leonletto/gt-telegram"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gt-telegram" do
   on_macos do
     on_intel do
       url "https://github.com/leonletto/gt-telegram/releases/download/v#{version}/gt-telegram_#{version}_darwin_amd64.tar.gz"
-      sha256 "f12c98fa422ff352b0db4fba42a88a2a52323b16a0da2d26c4686ea84ae03670"
+      sha256 "5227820d0e1ac71bd55ec9d474f1e7015b39676d3d2838193125b4caab6a129b"
     end
     on_arm do
       url "https://github.com/leonletto/gt-telegram/releases/download/v#{version}/gt-telegram_#{version}_darwin_arm64.tar.gz"
-      sha256 "757c01d923b145b914da47c66c6e5154d368c67c9b3c0924dd59e5d9bbe44c9d"
+      sha256 "e3bc9ca170efbd3700c8a25f16e7f2d349c24588527da001abadb4fb14b0617c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/leonletto/gt-telegram/releases/download/v#{version}/gt-telegram_#{version}_linux_amd64.tar.gz"
-      sha256 "61335cb5e20b7962f360719dcf81fec0216e56418ef5e68044491eaff79355a0"
+      sha256 "497a8cc5d0b79ebfbd48ab46b22f0269db87ced6c90d1e6420d86232caaec39e"
     end
     on_arm do
       url "https://github.com/leonletto/gt-telegram/releases/download/v#{version}/gt-telegram_#{version}_linux_arm64.tar.gz"
-      sha256 "82bd44ab3d464a4d7609ecc3b9d8083b70d6fce00067a21b790aff6ac1c88bd1"
+      sha256 "4959b6aa5ab52f9d5d43a173557debf652149e959318cd992bc4f4fbe5273ffb"
     end
   end
 
