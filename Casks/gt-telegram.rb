@@ -14,22 +14,22 @@ cask "gt-telegram" do
   on_macos do
     on_intel do
       url "https://github.com/leonletto/gt-telegram/releases/download/v#{version}/gt-telegram_#{version}_darwin_amd64.tar.gz"
-      sha256 "5227820d0e1ac71bd55ec9d474f1e7015b39676d3d2838193125b4caab6a129b"
+      sha256 "fd469afb731ffd01fbffb8d220487f573f147c4883268548bb461be502b95e54"
     end
     on_arm do
       url "https://github.com/leonletto/gt-telegram/releases/download/v#{version}/gt-telegram_#{version}_darwin_arm64.tar.gz"
-      sha256 "e3bc9ca170efbd3700c8a25f16e7f2d349c24588527da001abadb4fb14b0617c"
+      sha256 "2f22c6b6a1db36be48d861f60f552d80f9ac54eb2de9c148faa5767228479501"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/leonletto/gt-telegram/releases/download/v#{version}/gt-telegram_#{version}_linux_amd64.tar.gz"
-      sha256 "497a8cc5d0b79ebfbd48ab46b22f0269db87ced6c90d1e6420d86232caaec39e"
+      sha256 "630818ceb65cbf19744e023d46e06dff6d4ed12844d444215b2ea1eb841c6195"
     end
     on_arm do
       url "https://github.com/leonletto/gt-telegram/releases/download/v#{version}/gt-telegram_#{version}_linux_arm64.tar.gz"
-      sha256 "4959b6aa5ab52f9d5d43a173557debf652149e959318cd992bc4f4fbe5273ffb"
+      sha256 "1e1aab3d289a04036e89d79382e78fd1e170b993524fa17d24c3a9fcdc91d62f"
     end
   end
 
