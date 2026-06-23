@@ -4,22 +4,22 @@ cask "thrum" do
 
   on_macos do
     on_intel do
-      sha256 "c36645f04322281904cda2f186361a3ce602510b3e2f74c71a6023288ac63b1b"
+      sha256 "4c02eb45a6695bb6266c7129132dbd71ac57f26a5ecb4b94d21408913fe8c7fb"
       url "https://github.com/leonletto/thrum/releases/download/v#{version}/thrum_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "8d59bba7a56fd948a9f8ca312e80a9bcd39dd2d2ce668049cd1cac18bb00e50d"
+      sha256 "476a888cbd04ec40c6cfaff676f9b33f658001ca9bb7622efc546f25b33f2c6e"
       url "https://github.com/leonletto/thrum/releases/download/v#{version}/thrum_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "659bb5cf25a67154bee2758e3e9587f6eb881ae008e88311ee034146086a1e25"
+      sha256 "bd777fa9262c322684d9480176b82340f74cf1a5b2c0a71c31b765deced42c54"
       url "https://github.com/leonletto/thrum/releases/download/v#{version}/thrum_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "3bc4361175ef5709da80559ca755b8eac7621df816d3f6d62e9228f7cd4bf3bb"
+      sha256 "a096c239b0a08cddae0d1555dbe3fddbd69e2e9d99f58a07d8fbb56d38afbac7"
       url "https://github.com/leonletto/thrum/releases/download/v#{version}/thrum_#{version}_linux_arm64.tar.gz"
     end
   end
